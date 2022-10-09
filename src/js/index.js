@@ -1,4 +1,4 @@
-import { requestWakeLock, releaseWakeLock, handleVisibilityChange } from "../modules/wakelock.js";
+import { requestWakeLock, releaseWakeLock, handleVisibilityChange } from "./wakelock.js";
 
 import styles from "../css/red.css" assert { type: "css" };
 document.adoptedStyleSheets.push(styles);
