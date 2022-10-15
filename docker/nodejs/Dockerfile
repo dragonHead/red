@@ -1,4 +1,4 @@
-FROM node:18.10.0-slim
+FROM node:18.11.0-slim
 
 RUN useradd --user-group --create-home --shell /bin/bash reddev
 ENV HOME=/home/reddev
