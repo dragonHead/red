@@ -1,1 +1,8 @@
-{}
+{
+  "name": "Red Docker Compose (Remote)",
+  "dockerComposeFile": ["../compose.yml"],
+  "service": "red",
+  "remoteUser": "reddev",
+  "workspaceFolder": "/home/reddev/red",
+  "shutdownAction": "stopCompose"
+}
