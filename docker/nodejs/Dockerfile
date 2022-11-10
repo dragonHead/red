@@ -8,4 +8,4 @@ RUN chown -R reddev:reddev $HOME/*
 
 USER reddev
 WORKDIR $HOME/red/src
-# RUN npm install
+RUN npm install
