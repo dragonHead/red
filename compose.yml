@@ -4,9 +4,6 @@ services:
       context: .
       dockerfile: ./docker/nodejs/Dockerfile
     user: reddev
-    command: "npm start"
-    environment:
-      NODE_ENV: development
     ports:
       - "8888:3000"
     volumes:

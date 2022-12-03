@@ -1,4 +1,8 @@
-src/node_modules
+.devcontainer/
+.vscode/
+docker/
+src/node_modules/
+.dockerignore
 .git
 .gitignore
 .npmrc
