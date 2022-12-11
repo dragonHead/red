@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" dir="ltr" class="no-js">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Red</title>
     <link rel="stylesheet" href="./css/index.css" />
+    <script type="module">
+      document.documentElement.classList.remove("no-js");
+      document.documentElement.classList.add("js");
+    </script>
+    <script type="module" src="./js/index.js"></script>
   </head>
   <body>
+    <noscript
+      >Please enable javascript to be able to use this application.</noscript
+    >
     <div class="control">
       <div id="message"></div>
       <button id="release">release</button>
     </div>
-    <script type="module" src="./js/index.js"></script>
   </body>
 </html>

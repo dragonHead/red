@@ -18,6 +18,10 @@
     "source.fixAll.stylelint": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.stickyScroll.enabled": true,
+  "explorer.autoRevealExclude": {
+    "**/node_modules": true
+  },
   "files.insertFinalNewline": true,
   "files.autoGuessEncoding": true,
   "files.trimTrailingWhitespace": true,
@@ -47,6 +51,5 @@
   "hadolintPath": "hadolint",
   "cliOptions": ["--no-color", "--ignore", "DL3000"],
   "maxNumberOfProblems": 100,
-  "outputLevel": "warning",
-  "editor.stickyScroll.enabled": true
+  "outputLevel": "warning"
 }
