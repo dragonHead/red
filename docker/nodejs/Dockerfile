@@ -10,13 +10,13 @@ RUN apt-get update \
 # ENV NODE_NEV production
 ENV NODE_NEV development
 
+RUN npm i -g npm
+
 RUN useradd --user-group --create-home --shell /bin/bash reddev
 ENV HOME=/home/reddev
 
 COPY ./src $HOME/red/src
 RUN chown -R reddev:reddev $HOME/*
-
-RUN npm i -g npm
 
 USER reddev
 WORKDIR $HOME/red/src
